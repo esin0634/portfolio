@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -14,6 +17,11 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+  ::selection {
+    color:rgb(26, 25, 25);
+    background: #8b10de; /* WebKit/Blink Browsers */
+  }
+
 }
 
 body {
@@ -25,3 +33,21 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer components {
+  .section-wrapper {
+    @apply w-screen h-screen bg-stone-800
+  }
+  .test {
+    @apply text-blue-900
+  }
+}
+
+.vertical-text {
+  writing-mode: vertical-lr;
+
+}
+.p-line {
+  border-bottom: 1px solid gray;
+}
+
