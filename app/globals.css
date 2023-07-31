@@ -45,7 +45,9 @@ body {
 
 .vertical-text {
   writing-mode: vertical-lr;
-
+}
+.non-vertical-text{
+  writing-mode: horizontal-tb;
 }
 .p-line {
   border-bottom: 1px solid gray;

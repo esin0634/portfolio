@@ -2,6 +2,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
+import{ GiMaterialsScience } from "react-icons/gi"
+
+ooppaa
 
 const Navbar = () => {
   return (
@@ -10,7 +13,7 @@ const Navbar = () => {
 
             <Link href="/"  >
                 <motion.div
-                    className='w-full h-32 p-4 flex justify-center items-center'
+                    className='w-full h-32 p-4 flex justify-center items-center '
                     initial = {{
                         opacity:0.5
                     }}
@@ -20,12 +23,12 @@ const Navbar = () => {
                         
                     }}
                 >
-                    logo
+                    <GiMaterialsScience className='w-10 h-10 text-[#a802f5]'/>
                 </motion.div>
             </Link>
             <Link href="/#about">
                 <motion.div
-                    className='w-full h-32 p-4 flex justify-center items-center'
+                    className='w-full h-32 p-4 flex justify-center items-center '
                     initial = {{
                         opacity:0.5
                     }}

@@ -6,8 +6,8 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section className="w-screen h-screen bg-[#0f0f0f]" >
-        <div className=" h-screen flex justify-center items-center p-10 ">
+    <section className="w-screen md:h-screen bg-[#0f0f0f]" >
+        <div className=" md:h-screen flex justify-center items-center p-10 ">
             <div className="flex flex-col space-y-5">
                 <h1 className=" text-8xl font-extrabold tracking-tight	">
                     Hey, I'm Esin<span className="text-[#a802f5]">.</span>
