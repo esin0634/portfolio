@@ -3,5 +3,6 @@ module.exports = {
     rules: {
       // ... other rules ...
       "react-hooks/exhaustive-deps": "off",
+      "react/no-unescaped-entities": "off",
     },
   };

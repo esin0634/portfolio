@@ -36,12 +36,12 @@ const About = () => {
                 
                 <div className='col-span-2 font-thin text-lg space-y-5 '>
                   <div>
-                  <Reveal>As a web developer, I am passionate about creating innovative</Reveal><Reveal> and user-friendly websites that enhance people&apos;s lives.</Reveal>  
+                  <Reveal>As a web developer, I am passionate about creating innovative</Reveal><Reveal> and user-friendly websites that enhance people's lives.</Reveal>  
                   </div>
                 
                   <br/>
                   <div>
-                  <Reveal>I am well-versed in various programming languages such as HTML, CSS, and JavaScript</Reveal> <Reveal> and I&apos;m excited to use these skills</Reveal> <Reveal>to create engaging and effective web experiences that will drive business success.</Reveal>
+                  <Reveal>I am well-versed in various programming languages such as HTML, CSS, and JavaScript</Reveal> <Reveal> and I'm excited to use these skills</Reveal> <Reveal>to create engaging and effective web experiences that will drive business success.</Reveal>
                   </div>
                   <br/>
                   <div>
@@ -50,7 +50,7 @@ const About = () => {
                   
                   <br/>
                   <div>
-                  <Reveal>My proudest accomplishment is completing a coding bootcamp where I developed </Reveal><Reveal>several projects that demonstrated my proficiency and passion</Reveal><Reveal> for web development. If you think you&apos;ve got an opening that I might like, let&apos;s connect 🔗</Reveal>
+                  <Reveal>My proudest accomplishment is completing a coding bootcamp where I developed </Reveal><Reveal>several projects that demonstrated my proficiency and passion</Reveal><Reveal> for web development. If you think you've got an opening that I might like, let's connect 🔗</Reveal>
                   </div>
                 
                   <div className="flex items-center space-x-5">

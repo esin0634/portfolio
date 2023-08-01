@@ -40,7 +40,7 @@ const Hero = () => {
                     </Reveal>
                     <Reveal>
                         <h1 className=" text-8xl font-extrabold tracking-tight pb-3	">
-                            I&apos;m 
+                            I'm 
                         </h1>
                     </Reveal>    
                     <Reveal>   
@@ -51,7 +51,7 @@ const Hero = () => {
                     </div>   
                 <Reveal>
                 <h2 className="text-4xl">
-                    I&apos;m a <span className="text-[#a802f5] font-bold">Front-End Developer</span>
+                    I'm a <span className="text-[#a802f5] font-bold">Front-End Developer</span>
                 </h2>
                 </Reveal>
                 <Reveal>
