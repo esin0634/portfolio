@@ -16,7 +16,7 @@ const Contact = () => {
                     </h1>
                     </Reveal>
                     <Reveal>
-                    <p className="text-center font-thin md:text-lg">Shoot me an email if you want to connect! You can also find me on <a className="text-[#a802f5] font-normal hover:underline" href="https://www.linkedin.com/in/nbusraesin/">Linkedin</a> if that's more your speed.</p>
+                    <p className="text-center font-thin md:text-lg">Shoot me an email if you want to connect! You can also find me on <a className="text-[#a802f5] font-normal hover:underline" href="https://www.linkedin.com/in/nbusraesin/">Linkedin</a> if that&apos;s more your speed.</p>
                     </Reveal>
                     <Reveal>
                     <motion.h4 className=" cursor-pointer font-thin text-2xl w-maxp " onClick={handleMailClick}
