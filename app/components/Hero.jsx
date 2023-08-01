@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { motion } from "framer-motion";
 
 import { Reveal } from "./Reveal";
-import SimpleButton from "./button/simpleButton"
 import confetti from 'canvas-confetti';
 
 
@@ -63,9 +62,17 @@ const Hero = () => {
                 <div className="flex items-center space-x-5 flex-wrap">
                     <Reveal>
                     <Link href ="/#contact">
-                        <SimpleButton >
-                            Contact me
-                        </SimpleButton>
+                    <motion.button 
+                           
+                            className=' w-fit p-3 border-2 rounded border-[#9E00F9] '
+                            initial="empty"
+                            whileHover="filled"
+                            whileTap={{ scale: 0.9 }}
+                            variants={buttonVariants}
+                            transition={buttonTransition}
+                        >
+                              Contact me
+                        </motion.button>
                     </Link>
                     </Reveal>
                     <Reveal>

@@ -49,7 +49,6 @@ const Projects = () => {
 
               <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
                   {imageFilenames.map((filename) => {
-                    console.log(filename)
                     const projectInfo = dic[filename]
                     return (
                         <div className='col-span-1' key={filename}>
