@@ -36,7 +36,7 @@ const About = () => {
                 
                 <div className='col-span-2 font-thin text-lg space-y-5 '>
                   <div>
-                  <Reveal>As a web developer, I am passionate about creating innovative</Reveal><Reveal> and user-friendly websites that enhance people's lives.</Reveal>  
+                  <Reveal>In college I studied Molecular Biology and Genetics.</Reveal><Reveal> Throughout my studies I found my passion for coding.</Reveal>  
                   </div>
                 
                   <br/>
@@ -50,7 +50,7 @@ const About = () => {
                   
                   <br/>
                   <div>
-                  <Reveal>My proudest accomplishment is completing a coding bootcamp where I developed </Reveal><Reveal>several projects that demonstrated my proficiency and passion</Reveal><Reveal> for web development. If you think you've got an opening that I might like, let's connect 🔗</Reveal>
+                  <Reveal>My proudest accomplishment is completing a coding bootcamp at Re:coded where I developed </Reveal><Reveal>several projects that demonstrated my proficiency and passion</Reveal><Reveal> for web development. If you think you've got an opening that I might like, let's connect 🔗</Reveal>
                   </div>
                 
                   <div className="flex items-center space-x-5">
@@ -91,7 +91,6 @@ const About = () => {
                       <div className={style.button}>CSS</div>
                       <div className={style.button}>Redux</div>
                       <div className={style.button}>Tailwind</div>
-                      <div className={style.button}>Framer Motion</div>
                       <div className={style.button}>Next JS</div>
                       <div className={style.button}>Firebase</div>
                     </div>
@@ -110,14 +109,10 @@ const About = () => {
                   </Reveal>
                     <Reveal>
                     <div className="skills flex flex-wrap gap-3 ">
-                      <div className={style.button}>JavaScript</div>
-                      <div className={style.button}>React</div>
-                      <div className={style.button}>CSS</div>
-                      <div className={style.button}>Redux</div>
-                      <div className={style.button}>Tailwind</div>
                       <div className={style.button}>Framer Motion</div>
-                      <div className={style.button}>Next JS</div>
-                      <div className={style.button}>Firebase</div>
+                      <div className={style.button}>Python</div>
+                      <div className={style.button}>Davinci Resolve</div>
+                      <div className={style.button}>Spline</div>
                     </div>
                       </Reveal>
                   <div>
