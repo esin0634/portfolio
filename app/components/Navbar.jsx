@@ -3,11 +3,11 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import{ GiMaterialsScience } from "react-icons/gi"
-
-ooppaa
+import { ProjectReveal } from './ProjectReveal'
 
 const Navbar = () => {
   return (
+    <ProjectReveal>
     <div className='fixed h-screen hidden bg-[#080808] sm:flex' >
             <div className='vertical-text flex items-center font-thin text-lg'>
 
@@ -76,6 +76,7 @@ const Navbar = () => {
 
         </div>
     </div>
+    </ProjectReveal>
   )
 }
 

@@ -4,6 +4,8 @@ import { GrMail } from "react-icons/gr";
 import { PiCodeFill } from "react-icons/pi"
 import { BsFillEmojiSmileUpsideDownFill } from "react-icons/bs"
 
+import { Reveal } from "./Reveal";
+
 
 
 const About = () => {
@@ -21,25 +23,38 @@ const About = () => {
 
           <div className=" lg:flex lg:flex-col space-y-5 ">
               
+             
               <div className=' flex flex-row items-center space-x-5' >
                 <h1 className="text-4xl lg:text-6xl font-extrabold tracking-tight flex	">
                     About <span className="text-[#a802f5] ">.</span>
                 </h1>
-                <hr className="h-px w-full my-8  border-0 bg-neutral-600"></hr>
+                <hr className=" h-px w-full my-8  border-0 bg-neutral-600"></hr>
               </div>
+                
 
               <div className='lg:grid grid-cols-3 gap-4 space-y-8 lg:space-x-8'>
                 
                 <div className='col-span-2 font-thin text-lg space-y-5 '>
-                  <p>As a web developer, I am passionate about creating innovative and user-friendly websites that enhance people's lives.   </p>
-
-                  <p>I am well-versed in various programming languages such as HTML, CSS, and JavaScript, and I'm excited to use these skills to create engaging and effective web experiences that will drive business success.</p>
-
-                  <p>With a strong skill set in problem-solving and communication, I am confident in my ability to work collaboratively with others to achieve shared goals.</p>
-
-                  <p>My proudest accomplishment is completing a coding bootcamp where I developed several projects that demonstrated my proficiency and passion for web development. If you think you've got an opening that I might like, let's connect 🔗</p>
-
+                  <div>
+                  <Reveal>As a web developer, I am passionate about creating innovative</Reveal><Reveal> and user-friendly websites that enhance people's lives.</Reveal>  
+                  </div>
+                
+                  <br/>
+                  <div>
+                  <Reveal>I am well-versed in various programming languages such as HTML, CSS, and JavaScript</Reveal> <Reveal> and I'm excited to use these skills</Reveal> <Reveal>to create engaging and effective web experiences that will drive business success.</Reveal>
+                  </div>
+                  <br/>
+                  <div>
+                  <Reveal>With a strong skill set in problem-solving and communication,  </Reveal> <Reveal> I am confident in my ability to work collaboratively with others to achieve shared goals.</Reveal>
+                </div>
+                  
+                  <br/>
+                  <div>
+                  <Reveal>My proudest accomplishment is completing a coding bootcamp where I developed </Reveal><Reveal>several projects that demonstrated my proficiency and passion</Reveal><Reveal> for web development. If you think you've got an opening that I might like, let's connect 🔗</Reveal>
+                  </div>
+                
                   <div className="flex items-center space-x-5">
+                  <Reveal>
                     <p className="text-[#a802f5] font-normal flex items-center gap-3 ">My Links <span> <AiOutlineArrowRight/> </span></p>
                     <div className="flex space-x-3">
                       <a href="https://github.com/esin0634" >
@@ -55,6 +70,7 @@ const About = () => {
                         <GrMail className="w-7 h-7 text-stone-300 hover:text-[#a802f5] " onClick={handleMailClick}  />
                       </div>
                     </div>
+                    </Reveal>
                   </div>
                 </div>
 
@@ -62,10 +78,13 @@ const About = () => {
                 <div className="space-y-10">
 
                 <div className=" space-y-5">
+                    <Reveal>
                   <div className="flex items-center space-x-3">
                     <span><PiCodeFill className="w-7 h-7 text-[#a802f5]"/></span>
                     <h4 className="font-bold text-2xl tracking-tighter	">Use at work</h4>
                   </div>
+                    </Reveal>
+                  <Reveal>
                     <div className="skills flex flex-wrap gap-3 ">
                       <div className={style.button}>JavaScript</div>
                       <div className={style.button}>React</div>
@@ -76,16 +95,20 @@ const About = () => {
                       <div className={style.button}>Next JS</div>
                       <div className={style.button}>Firebase</div>
                     </div>
+                    </Reveal>
                   <div>
 
                   </div>
                 </div>
 
                 <div className=" space-y-5">
+                <Reveal>
                   <div className="flex items-center space-x-3">
                     <span><BsFillEmojiSmileUpsideDownFill className="w-7 h-7 text-[#a802f5]"/></span>
                     <h4 className="font-bold text-2xl tracking-tighter">For fun</h4>
                   </div>
+                  </Reveal>
+                    <Reveal>
                     <div className="skills flex flex-wrap gap-3 ">
                       <div className={style.button}>JavaScript</div>
                       <div className={style.button}>React</div>
@@ -96,6 +119,7 @@ const About = () => {
                       <div className={style.button}>Next JS</div>
                       <div className={style.button}>Firebase</div>
                     </div>
+                      </Reveal>
                   <div>
 
                   </div>
