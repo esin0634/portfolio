@@ -50,7 +50,7 @@ const About = () => {
                   
                   <br/>
                   <div>
-                  <Reveal>My proudest accomplishment is completing a coding bootcamp at Re:coded where I developed </Reveal><Reveal>several projects that demonstrated my proficiency and passion</Reveal><Reveal> for web development. If you think you've got an opening that I might like, let's connect 🔗</Reveal>
+                  <Reveal>My proudest accomplishment is completing a coding bootcamp at Re:coded where I developed </Reveal><Reveal>several projects that demonstrated my hunger to learn and passion</Reveal><Reveal> for web development. If you think you've got an opening that I might like, let's connect 🔗</Reveal>
                   </div>
                 
                   <div className="flex items-center space-x-5">
