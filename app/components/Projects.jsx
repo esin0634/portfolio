@@ -7,7 +7,7 @@ const Projects = () => {
     "1": {
       title: "Learn U",
       projectGitRepo : "https://github.com/202303-PRM-TR-FEW/LearnU-Team-1",
-      projectDeployLink : "https://learn-u-team-1-lilac.vercel.app/",
+      projectDeployLink : "https://learnu.vercel.app/",
       projectText : "This project aims to develop an interactive and engaging learning app that provides users with a personalized educational experience.The app will offer a wide range of courses and resources across various subjects, catering to learners of all ages and skill levels. With a focus on interactivity and convenience, this platform will empower individuals to acquire new knowledge, develop skills, and explore their educational interests at their own pace."
 
     },
