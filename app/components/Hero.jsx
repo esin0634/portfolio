@@ -85,7 +85,7 @@ const Hero = () => {
                             variants={buttonVariants}
                             transition={buttonTransition}
                         >
-                              <a href="/images/nBusraEsinCv.pdf" download>My resume</a>
+                              <a href="/images/NBusraEsinCv.pdf" download>My resume</a>
                         </motion.button>
                     </Reveal>    
                 </div>
