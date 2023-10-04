@@ -12,10 +12,10 @@ const Projects = () => {
 
     },
     "2": { 
-      title: "Meme App",
-      projectGitRepo : "https://github.com/esin0634/meme-app",
-      projectDeployLink : "https://meme-app-two.vercel.app/",
-      projectText : "A project to understand API requests in NextJS. This project showcases the use of Redux for state management. The project make API requests using using react-query and retrieve data from external APIs. Redux helps manage the global state, allowing components to access and modify data without excessive prop drilling."
+      title: "Movie APP",
+      projectGitRepo : "https://github.com/esin0634/movie-app-REST",
+      projectDeployLink : "https://movie-app-rest.vercel.app/",
+      projectText : "A project to develop skills in data fetching and pre-rendering in NextJS. Used TMBD data base to search for thousands of movies and tv series. The project make API requests and retrieve data from external APIs. Used NextJs' internal dynamic routing systems including catch-all-routes and conditional rendering."
 
     },
     "3": {
@@ -26,10 +26,10 @@ const Projects = () => {
 
     },
     "4": {
-      title: "Toplumun Sanatı",
-      projectGitRepo : "https://github.com/esin0634/toplumun-sanati",
-      projectDeployLink : "https://toplumun-sanati.vercel.app/",
-      projectText : "An art project with ongoing creation and development using Firestore and firebase auth for authentication and Next.js"
+      title: "Progress Tracker",
+      projectGitRepo : "https://github.com/esin0634/progress-timer",
+      projectDeployLink : "https://progress-timer.vercel.app/",
+      projectText : "The Progress Tracker Web App is a product born out of a desire to aid individuals on their journey towards mastery. Inspired by the 10,000-hour rule, this simple yet effective tool allows users to start, pause, resume, and reset a timer with ease, making it an invaluable companion for tracking progress during practice or study sessions. What sets this app apart is its commitment to preserving your progress; even if you close the page, your session data will be waiting for you when you return, ensuring a seamless and uninterrupted path to becoming a master. Built using only vanilla JavaScript, HTML, CSS, and Sass, it combines simplicity and functionality, making it the perfect partner for anyone looking to hone their skills."
 
     }
   }
