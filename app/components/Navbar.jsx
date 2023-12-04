@@ -8,8 +8,8 @@ import { ProjectReveal } from './ProjectReveal'
 const Navbar = () => {
   return (
     <ProjectReveal>
-    <div className='fixed h-screen hidden bg-[#080808] sm:flex' >
-            <div className='vertical-text flex items-center font-thin text-lg'>
+    <div className='fixed h-screen hidden bg-[#e885548f] sm:flex text-[#1a0f09]'  >
+            <div className='vertical-text flex items-center  text-lg'>
 
             <Link href="/"  >
                 <motion.div
@@ -23,7 +23,7 @@ const Navbar = () => {
                         
                     }}
                 >
-                    <GiMaterialsScience className='w-10 h-10 text-[#a802f5]'/>
+                    <GiMaterialsScience className='w-10 h-10 text-[#1a0f09]'/>
                 </motion.div>
             </Link>
             <Link href="/#about">

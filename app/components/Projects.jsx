@@ -35,7 +35,7 @@ const Projects = () => {
   }
 
     return (
-        <section id='projects' className="w-screen  bg-[#0f0f0f] " >
+        <section id='projects' className="w-screen bg-stone-500 border-rounded" >
         <div className=" flex justify-center items-center md:px-24 lg:px-40 p-5" >
 
           <div className=" lg:flex lg:flex-col space-y-5 ">
@@ -43,7 +43,7 @@ const Projects = () => {
               <div className='flex flex-row items-center space-x-5' >
                 <hr className="h-px w-full my-8 bg-neutral-600 border-0 "></hr>
                 <h1 className="text-4xl lg:text-6xl font-extrabold tracking-tight flex	">
-                    Projects <span className="text-[#a802f5] ">.</span>
+                    Projects <span className="text-[#347833a5] ">.</span>
                 </h1>
               </div>
 

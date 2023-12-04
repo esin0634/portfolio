@@ -54,10 +54,10 @@ export const ProjectCard = ({imgNumber , appTitle, projectGitRepo, projectDeploy
                 <Reveal>
                 <div className='flex space-x-2 p-2'> 
                     <a href={projectGitRepo}  rel="noopener noreferrer" target="_blank">
-                    <AiFillGithub className='w-6 h-6 text-neutral-500 hover:text-[#a802f5]' />
+                    <AiFillGithub className='w-6 h-6  hover:text-[#347833a5]' />
                     </a>
                     <a href={projectDeployLink}rel="noopener noreferrer" target="_blank">
-                        <BiExit className='w-6 h-6 text-neutral-500 hover:text-[#a802f5]' />
+                        <BiExit className='w-6 h-6  hover:text-[#347833a5]' />
                     </a>
                 </div>
                 </Reveal>

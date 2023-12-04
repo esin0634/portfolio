@@ -5,7 +5,7 @@ import Projects from "./components/Projects"
 
 export default function Home() {
   return (
-    <main >
+    <main className="bg-orange-50" >
       <Hero />
       <About />
       <Projects />
