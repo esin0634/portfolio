@@ -5,26 +5,27 @@ const Projects = () => {
   const imageFilenames = ['1', '2', '3','4'];
   const dic = {
     "1": {
-      title: "Learn U",
+      title: "Front-End Web App",
       projectGitRepo : "https://github.com/202303-PRM-TR-FEW/LearnU-Team-1",
       projectDeployLink : "https://learnu.vercel.app/",
-      projectText : "This project aims to develop an interactive and engaging learning app that provides users with a personalized educational experience.The app will offer a wide range of courses and resources across various subjects, catering to learners of all ages and skill levels. With a focus on interactivity and convenience, this platform will empower individuals to acquire new knowledge, develop skills, and explore their educational interests at their own pace."
+      projectText : "I spearheaded an impactful 8-week web app development project, showcasing my versatility as both a Scrum Master and a Front-End Developer. Applying Scrum methodologies, I took the lead in planning sprints, defining clear goals, and assigning tasks. As the Scrum Master, I mentored team members, ensuring their well-being and fostering a collaborative environment. Daily stand-ups became a cornerstone, keeping the team focused, informed, and proactive in addressing challenges. I actively engaged in pair programming, collaborated on problem-solving, and developed reusable components to enhance code efficiency. It was a dynamic journey where teamwork and effective leadership converged to bring our vision to fruition."
 
     },
-    "2": { 
+    "2": {
+      title: "PM Case Study",
+      projectGitRepo : "https://drive.google.com/file/d/1jypPErwUdYpIBVoE34oHpWipt7eNxcUd/view?usp=sharing",
+      projectDeployLink : "https://drive.google.com/file/d/1jypPErwUdYpIBVoE34oHpWipt7eNxcUd/view?usp=sharing",
+      projectText : "As part of the application process for the Product Manager position for a playable add startup, I successfully completed a one-day case study. Task 1 involved selecting a non-gaming brand, outlining a strategy for the brand to onboard the company using playable ads. Task 2 focused on designing a playable ad experience, including concept creation and wireframe development. For Task 3, I evaluated existing playable ads of the company, proposing critical improvements. In Task 4, I identified potential enhancements for one of the companies product, proposing a strategic plan within the tight timeframe. This case study showcases my rapid strategic thinking and ability to deliver impactful insights under time constraints."
+
+    },
+    "3": { 
       title: "Movie APP",
       projectGitRepo : "https://github.com/esin0634/movie-app-REST",
       projectDeployLink : "https://movie-app-rest.vercel.app/",
       projectText : "A project to develop skills in data fetching and pre-rendering in NextJS. Used TMBD data base to search for thousands of movies and tv series. The project make API requests and retrieve data from external APIs. Used NextJs' internal dynamic routing systems including catch-all-routes and conditional rendering."
 
     },
-    "3": {
-      title: "SpliTter",
-      projectGitRepo : "https://github.com/esin0634/nextjs-tip-calculator",
-      projectDeployLink : "https://nextjs-tip-calculator-kappa.vercel.app/",
-      projectText : "The app is built using Next.js, Tailwind CSS, and JavaScript, serving as a practical project to reinforce logical JavaScript and React skills. By combining the power of Next.js for server-side rendering and Tailwind CSS for streamlined UI design, the app offers an excellent hands-on learning experience for both front-end development and React concepts."
-
-    },
+    
     "4": {
       title: "Progress Tracker",
       projectGitRepo : "https://github.com/esin0634/progress-timer",
@@ -38,7 +39,7 @@ const Projects = () => {
         <section id='projects' className="w-screen bg-stone-500 border-rounded" >
         <div className=" flex justify-center items-center md:px-24 lg:px-40 p-5" >
 
-          <div className=" lg:flex lg:flex-col space-y-5 ">
+          <div className=" lg:flex lg:flex-col space-y-20 ">
             
               <div className='flex flex-row items-center space-x-5' >
                 <hr className="h-px w-full my-8 bg-neutral-600 border-0 "></hr>

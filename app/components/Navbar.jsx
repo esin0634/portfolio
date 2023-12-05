@@ -8,7 +8,7 @@ import { ProjectReveal } from './ProjectReveal'
 const Navbar = () => {
   return (
     <ProjectReveal>
-    <div className='fixed h-screen hidden bg-[#e885548f] sm:flex text-[#1a0f09]'  >
+    <div className='fixed h-screen hidden bg-[#e885548f] sm:flex text-stone-700'  >
             <div className='vertical-text flex items-center  text-lg'>
 
             <Link href="/"  >
@@ -19,7 +19,7 @@ const Navbar = () => {
                     }}
                     whileHover={{
                         opacity:1,
-                        background: "gray"
+                        background: "white"
                         
                     }}
                 >
@@ -34,7 +34,7 @@ const Navbar = () => {
                     }}
                     whileHover={{
                         opacity:1,
-                        background: "gray"
+                        background: "white"
                         
                     }}
                 >
@@ -49,7 +49,7 @@ const Navbar = () => {
                     }}
                     whileHover={{
                         opacity:1,
-                        background: "gray"
+                        background: "white"
                         
                     }}
                 >
@@ -64,7 +64,7 @@ const Navbar = () => {
                     }}
                     whileHover={{
                         opacity:1,
-                        background: "gray"
+                        background: "white"
                         
                     }}
                 >

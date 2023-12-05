@@ -11,12 +11,13 @@ const Contact = () => {
             <div className='md:h-screen flex justify-center items-center md:p-28 lg:p-40 p-5'>
                 <div className=" flex flex-col justify-center items-center space-y-5">
                     <Reveal>
-                    <h1 className="text-4xl lg:text-8xl font-extrabold tracking-tight flex 	">
+                    <h1 className="text-4xl lg:text-8xl font-extrabold tracking-tight flex text-stone-500 ">
                         Contact<span className="text-[#347833a5] px-3">.</span>
                     </h1>
                     </Reveal>
                     <Reveal>
                     <p className="text-center font-thin md:text-lg text-stone-600">Shoot me an email if you want to connect! You can also find me on <a className="text-[#347833a5] font-normal hover:underline" href="https://www.linkedin.com/in/nbusraesin/">Linkedin</a> if that's more your speed.</p>
+                    <p className="text-center font-thin md:text-lg text-stone-600">Let's create something extraordinary together, shaping the future one product at a time!</p>
                     </Reveal>
                     <Reveal>
                     <motion.h4 className=" cursor-pointer text-2xl w-maxp text-stone-600 " onClick={handleMailClick}

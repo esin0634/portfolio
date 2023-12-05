@@ -10,7 +10,10 @@ import { Reveal } from './Reveal';
 
 
 export const ProjectCard = ({imgNumber , appTitle, projectGitRepo, projectDeployLink, projectText }) => {
-   
+    const handleImageClick = () => {
+        window.open(projectDeployLink, "_blank");
+      };
+
   return (
     <div>
         <ProjectReveal>
@@ -26,6 +29,8 @@ export const ProjectCard = ({imgNumber , appTitle, projectGitRepo, projectDeploy
                 }}
                 transition={{ type: 'linear' }}
                 className='cursor-pointer'
+                onClick={handleImageClick}
+
             >
                 <Image
                     src={`/images/${imgNumber}.png`}
@@ -44,7 +49,7 @@ export const ProjectCard = ({imgNumber , appTitle, projectGitRepo, projectDeploy
             <div className='flex flex-row items-center  '>
             <Reveal>
                 <div className='grid grid-cols-3 gap-2 items-center'>
-                    <h1 className="text-xl lg:text-3xl font-extrabold tracking-tight w-fit">
+                    <h1 className="text-xl lg:text-3xl font-extrabold tracking-tight ">
                             {appTitle}
                     </h1>
 

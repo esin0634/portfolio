@@ -31,35 +31,40 @@ const Hero = () => {
         <div className=" h-screen flex justify-center items-center p-10 ">
             <div className="flex flex-col space-y-5">
                 
-                    <div className="flex flex-wrap sm:space-x-5">
-                    <Reveal>
-                        <h1 className=" text-8xl font-extrabold tracking-tight pb-3	">
-                            Hey,
-                        </h1>
-                    </Reveal>
-                    <Reveal>
-                        <h1 className=" text-8xl font-extrabold tracking-tight pb-3	">
-                            I'm 
-                        </h1>
-                    </Reveal>    
-                    <Reveal>   
-                        <h1 className=" text-8xl font-extrabold tracking-tight pb-3	">
-                            Esin<span className="text-[#347833a5]">.</span>
-                        </h1>
-                    </Reveal>
+                    <div className="flex flex-col sm:space-x-5">
+                    <div>
+                        <Reveal>
+                            <h1 className=" text-8xl font-extrabold tracking-tight pb-3 lg:ml-5	">
+                                Hey,
+                            </h1>
+                        </Reveal>
+                    </div>
+
+                    <div className='flex gap-x-7'>
+                        <Reveal>
+                            <h1 className=" text-8xl font-extrabold tracking-tight	">
+                                I'm 
+                            </h1>
+                        </Reveal>    
+                        <Reveal>   
+                            <h1 className=" text-8xl font-extrabold tracking-tight">
+                                Esin<span className="text-[#347833a5]">.</span>
+                            </h1>
+                        </Reveal>
+                    </div>
                     </div>   
                 <Reveal>
-                <h2 className="text-4xl">
+                <h2 className="text-4xl lg:ml-5">
                     I'm a <span className="text-[#347833a5] font-bold">Product Manager</span>
                 </h2>
                 </Reveal>
                 <Reveal>
-                <p className='font-thin'>
-                I am eager to bring my diverse skill set to a team that shares my passion for innovation. 
+                <p className='font-thin lg:ml-5 text-stone-700'>
+                With the brain of a developer, the heart of a designer, and the speech of a diplomat.
                 <br/>
-                Let's create something extraordinary together, shaping the future one product at a time! 🚀                </p>
+                It's so nice to meet you 🚀                </p>
                 </Reveal>
-                <div className="flex items-center space-x-5 flex-wrap">
+                <div className="flex items-center space-x-5 flex-wrap lg:ml-5">
                     <Reveal>
                     <Link href ="/#contact">
                     <motion.button 
@@ -85,7 +90,7 @@ const Hero = () => {
                             variants={buttonVariants}
                             transition={buttonTransition}
                         >
-                              <a href="/images/NBusraEsinCv.pdf" download>Click for my CV</a>
+                              <a href="/images/BusraEsinCV.pdf" download>Click for my CV</a>
                         </motion.button>
                     </Reveal>    
                 </div>
