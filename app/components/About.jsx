@@ -66,9 +66,9 @@ const About = () => {
                   
                   <br/>
                   <div>
-                  <Reveal><span className="text-neutral-700">💡 Passionate Product Enthusiast 🌟</span> </Reveal>
+                  <Reveal><span className="text-neutral-700">💡 Passionate Project Enthusiast 🌟</span> </Reveal>
                   <br/>
-                  <Reveal> <span className="font-light text-neutral-600">Here's the real crescendo: I am thrilled and absolutely bursting with excitement to be a Product Manager. My heart lies in technology and product development, and the prospect of working with a collaborative team to create products from inception to completion sends shivers down my scientific spine. It's not just a job for me; it's a thrilling journey of turning ideas into tangible, impactful solutions. I am ready to channel my diverse skills, from the analytical mindset forged in molecular sciences to the creative flair of a designer, to drive innovation and shape the future of products that make a real difference.
+                  <Reveal> <span className="font-light text-neutral-600">Here's the real crescendo: I am thrilled and absolutely bursting with excitement to be a Project Manager. My heart lies in technology and product development, and the prospect of working with a collaborative team to create products from inception to completion sends shivers down my scientific spine. It's not just a job for me; it's a thrilling journey of turning ideas into tangible, impactful solutions. I am ready to channel my diverse skills, from the analytical mindset forged in molecular sciences to the creative flair of a designer, to drive innovation and shape the future of products that make a real difference.
                   </span></Reveal>
                   </div>
 

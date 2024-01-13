@@ -55,7 +55,7 @@ const Hero = () => {
                     </div>   
                 <Reveal>
                 <h2 className="text-4xl lg:ml-5">
-                    I'm a <span className="text-[#347833a5] font-bold">Product Manager</span>
+                    I'm a <span className="text-[#347833a5] font-bold">Project Manager</span>
                 </h2>
                 </Reveal>
                 <Reveal>
